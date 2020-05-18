@@ -1,2 +1,2 @@
-# Android
-projeto_do_app
+# App_OPE
+App Projeto OPE Faculdade.
