@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--toolbar-->
+    <include layout="@layout/toolbar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:text="@string/equipamento"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/nEquip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/marcaEquip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/modeloEquip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/situacaoEquip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
